@@ -2,14 +2,16 @@
   max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
-  padding: 5rem;
+  padding: 1rem;
 }
 
 .page-container img {
   display: flex;
-  width: 100%;
+  width: 140%;
   max-width: 1200px;
   margin: 4rem auto;
+  margin-left: calc(50% - 50vw);
+
 }
 
 .shadow {
