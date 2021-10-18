@@ -8,5 +8,5 @@ permalink: /talents/index.html
 emoji: 💻
 eleventyNavigation:
   key: Talent
-  order: 1
+  order: 5
 ---
