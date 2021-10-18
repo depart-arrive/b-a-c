@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+section: talents
+---
+<div class="page-container">
+  <h1>{{title}}</h1>
+  {% if subtitle %}
+    <p>{{ subtitle }}</p>
+  {% endif %}
+  <hr>
+  {{ layoutContent | safe }}
+
+  {% set talentlist = collections.talent %}
+  {% include "components/talentlist.njk" %}
+</div>
