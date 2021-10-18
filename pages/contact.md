@@ -2,15 +2,15 @@
 section: contact
 layout: layouts/contact.njk
 title: Get in touch
-date: 2018-01-01
-permalink: /contact/index.html
+subtitle: Contact Subtitle
 metaDescription: This is a sample meta description. If one is not present in
   your page/post's front matter, the default metadata.desciption will be used
   instead.
-subtitle: Contact Subtitle
+date: 2018-01-01
+permalink: /contact/index.html
 eleventyNavigation:
   key: Contact
-  order: 5
+  order: 6
 ---
 
 The contact form on this page uses [Netlify Forms](https://www.netlify.com/docs/form-handling/) to process submissions,
