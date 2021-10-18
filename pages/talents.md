@@ -6,6 +6,6 @@ permalink: /talents/index.html
 metaDescription: A sample Talent page
 subtitle: This is the page where all talent bios will live
 eleventyNavigation:
-  key: Projects
+  key: Talents
   order: 6
 ---
