@@ -1,10 +1,11 @@
 ---
 layout: layouts/talents.njk
-title: Talent
+title: Talents
 date: 2021-01-01
 permalink: /talents/index.html
 metaDescription: A sample Talent page
-subtitle: This is the page where all talent bios will live
+subtitle: This is the page where all talent will live
+emoji: 💻
 eleventyNavigation:
   key: Talents
   order: 6
