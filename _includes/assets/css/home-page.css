@@ -4,7 +4,7 @@
   padding: 0 20px 20px;
 }
 
-@media (min-width: 90%) {
+@media (min-width: 1024px) {
   .home-page {
     padding: 20px 40px;
   }
@@ -14,7 +14,7 @@
   display: none;
 }
 
-@media (min-width: 90%) {
+@media (min-width: 1024px) {
   .home-page__bg-square {
     display: block;
     position: absolute;
@@ -43,7 +43,7 @@
   margin: 0 auto;
 }
 
-@media (min-width: 90%) {
+@media (min-width: 1024px) {
   .hero {
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 20px;
@@ -67,7 +67,7 @@
   margin-top: 0;
 }
 
-@media (min-width: 90%) {
+@media (min-width: 1024px) {
   .hero__title {
     font-size: 3.3em;
   }
@@ -77,7 +77,7 @@
   margin-top: 0;
 }
 
-@media (min-width: 90%) {
+@media (min-width: 1024px) {
   .hero__subtitle {
     margin-top: 3rem;
   }
