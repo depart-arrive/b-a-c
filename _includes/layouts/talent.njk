@@ -1,0 +1,17 @@
+
+---
+layout: layouts/base.njk
+section: talent
+---
+<div class="page-container">
+  <h1>
+    {% if emoji %}
+      <span class="talent-card__emoji">{{ emoji }}</span>
+    {% endif %}
+    {{title}}</h1>
+  <hr>
+  {{ layoutContent | safe }}
+  <nav>
+    <a href="{{ '/talents/' | url }}">← View All Talents</a>
+  </nav>
+</div>
