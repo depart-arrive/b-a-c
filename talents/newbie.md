@@ -5,6 +5,7 @@ author: B-A-C
 summary: no summary
 metaDescription: meta
 tags:
-  - CLIMBING ADVENTURE
+  - CLIMBING
+  - ADVENTURE
 ---
 BODY TEXT
