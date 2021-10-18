@@ -1,8 +1,0 @@
-
-{
-  "layout": "layouts/talent.njk",
-  "permalink": "talents/{{ title | slug }}/index.html",
-  "tags": [
-    "TALENT"
-  ]
-}
