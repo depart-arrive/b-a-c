@@ -1,11 +1,11 @@
 <section>
   <div class="talent-grid">
     {% for post in talentlist | reverse %}
-      <div class="project-card" {% if post.url == url %} data-current="current item"{% endif %}>
+      <div class="talent-card" {% if post.url == url %} data-current="current item"{% endif %}>
         <h4>
-          <a class="project-card__title" href="{{ post.url | url }}">
+          <a class="talent-card__title" href="{{ post.url | url }}">
             {% if post.data.title %}
-              <span class="project-card__emoji">{{ post.data.emoji }}</span>
+              <span class="talent-card__emoji">{{ post.data.emoji }}</span>
             {% endif %}
             {% if post.data.title %}
               {{ post.data.title }}
@@ -24,7 +24,7 @@
             {% for tag in post.data.tags %}
               {%- if tag != "talent" -%}
                 {% set tagUrl %}/talent-tags/{{ tag }}/{% endset %}
-              <a class="project-card__tag tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+              <a class="talent-card__tag tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
               {%- endif -%}
             {% endfor %}
           </p>
