@@ -31,7 +31,7 @@
     "@11ty/eleventy-navigation": "^0.1.6",
     "clean-css": "^4.2.1",
     "html-minifier": "^4.0.0",
-    "uglify-es": "^3.3.9"
+    "uglify-es": "^3.3.9",
     "@tailwindcss/typography": "^0.4.0",
     "tailwindcss": "^2.0.2"
   }
