@@ -1,4 +1,4 @@
-.project-grid {
+.talent-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 40px;
@@ -6,12 +6,12 @@
 }
 
 @media (min-width: 1024px) {
-  .project-grid {
+  .talent-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.project-card {
+.talent-card {
   display: block;
   display: flex;
   flex-direction: column;
@@ -20,20 +20,20 @@
   border: 2px solid var(--color-border);
 }
 
-.project-card__title {
+.talent-card__title {
   color: var(--color-text);
 }
 
-.project-card__tag {
+.talent-card__tag {
   background-color: var(--color-secondary);
   color: var(--color-text-alt);
 }
 
-.project-card__tag:hover {
+.talent-card__tag:hover {
   color: var(--color-text-alt);
   filter: brightness(90%);
 }
 
-.project-card__emoji {
+.talent-card__emoji {
   margin-right: 8px;
 }
