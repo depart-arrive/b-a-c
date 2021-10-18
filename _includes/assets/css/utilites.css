@@ -1,5 +1,19 @@
 .page-container {
-  max-width: 800px;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+}
+
+.text-container {
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+}
+
+.list-container {
+  max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
   padding: 1rem;
