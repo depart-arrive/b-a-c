@@ -11,7 +11,7 @@ section: post
       </small>
     </p>
     <hr>
-  <div class="text-container">
+  <div class="text-container text-mono">
   {{ layoutContent | safe }}
   
     {% if tags %}
@@ -24,10 +24,11 @@ section: post
       {% endfor %}
       </p>
     {% endif %}
-</div>
+
   </article>
 
   <nav>
     <a href="{{ '/blog/' | url }}">← View All Articles</a>
   </nav>
+  </div>
 </div>
