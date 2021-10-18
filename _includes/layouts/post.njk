@@ -11,9 +11,9 @@ section: post
       </small>
     </p>
     <hr>
-
-    {{ layoutContent | safe }}
-
+  <div class="text-container">
+  {{ layoutContent | safe }}
+  </div>
     {% if tags %}
       <p class="tag-list">
       {% for tag in tags %}
