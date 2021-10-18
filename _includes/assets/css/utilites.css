@@ -20,12 +20,12 @@
 }
 
 .page-container img {
-  display: flex;
-  width: 130%;
+  overflow-x: hidden;
+  width: 120%;
   max-width: 1200px;
   margin: auto;
-  margin-left: -15%;
-  margin-right: 15%;
+  margin-left: -10%;
+  margin-right: 10%;
 }
 
 .shadow {
