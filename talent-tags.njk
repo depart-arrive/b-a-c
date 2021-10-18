@@ -1,0 +1,29 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+permalink: /talent-tags/{{ tag }}/
+layout: layouts/base.njk
+renderData:
+  title: "Tagged “{{ tag }}”"
+  metaDescription: "All talent tagged with “{{ tag }}”"
+---
+<div class="page-container">
+  <div class="tag-list tag-list--no-wrap">
+    <h3 class="tag-list__title">Talents Tagged: "{{ tag | capitalize }}"</h3>
+    <a class="btn btn--danger" href="/talents">Remove Tag</a>
+  </div>
+
+  {% set talentlist = collections[tag] %}
+  {% include "components/talentlist.njk" %}
+
+  <nav>
+    <a href="{{ '/talents/' | url }}">← View All Talent</a>
+  </nav>
+</div>
