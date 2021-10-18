@@ -13,7 +13,7 @@ section: post
     <hr>
   <div class="text-container">
   {{ layoutContent | safe }}
-  </div>
+  
     {% if tags %}
       <p class="tag-list">
       {% for tag in tags %}
@@ -24,7 +24,7 @@ section: post
       {% endfor %}
       </p>
     {% endif %}
-
+</div>
   </article>
 
   <nav>
