@@ -1,5 +1,5 @@
 .page-container {
-  max-width: 90%;
+  max-width: var(--site-width);
   margin-right: auto;
   margin-left: auto;
   padding: 1rem;
