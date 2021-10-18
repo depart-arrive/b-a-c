@@ -9,7 +9,6 @@
   display: flex;
   width: 140%;
   max-width: 1200px;
-  margin: 4rem auto;
   margin-left: calc(50% - 50vw);
 
 }
