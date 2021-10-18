@@ -13,7 +13,7 @@
 }
 
 .list-container {
-  max-width: 1500px;
+  max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
   padding: 1rem;
@@ -21,11 +21,11 @@
 
 .page-container img {
   display: flex;
-  width: 120%;
+  width: 130%;
   max-width: 1200px;
   margin: auto;
-  margin-left: -10%;
-  margin-right: 10%;
+  margin-left: -15%;
+  margin-right: 15%;
 }
 
 .shadow {
