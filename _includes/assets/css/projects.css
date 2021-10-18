@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 0px;
-  border: 2px solid var(--color-border);
+  border: 0px solid var(--color-border);
 }
 
 .project-card__title {
