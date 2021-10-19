@@ -5,7 +5,7 @@
            {% if post.data.images.thumb %}
   <p>
   <a href="{{ post.url | url }}">
-  <img class="pb-2 object-cover {{ post.data.images.align }} w-full h-48" src={% if post.data.images.thumb %}"/assets/img/{{ post.data.images.thumb }}"{% endif %} >
+  <img src={% if post.data.images %}"/assets/img/{{ post.data.images }}"{% endif %} >
   </a></p>
     {% endif %}
        
