@@ -22,6 +22,8 @@ collections:
       - { label: "Meta Description", name: "metaDescription", widget: "text", required: false }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Image Alt Text, name: image_alt, widget: string, required: false }
 
   # Our projects
   - name: "project" # Used in routes, e.g., /admin/collections/project
@@ -37,6 +39,8 @@ collections:
       - { label: "Meta Description", name: "metaDescription", widget: "text", required: false }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Image Alt Text, name: image_alt, widget: string, required: false }
   
   # Our talents
   - name: "talent" # Used in routes, e.g., /admin/collections/talent
@@ -52,6 +56,8 @@ collections:
       - { label: "Meta Description", name: "metaDescription", widget: "text", required: false }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Image Alt Text, name: image_alt, widget: string, required: false }
       
   # Our basic pages e.g. About
   - name: "pages"
@@ -72,6 +78,8 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Image Alt Text, name: image_alt, widget: string, required: false }
 
   # The home page
   - name: "home"
