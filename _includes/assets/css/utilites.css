@@ -20,12 +20,12 @@
 }
 
 .page-container img {
+  overflow-x: hidden;
   max-width: 100vw;
   min-width: 100%;
   margin: auto;
-  margin-left: calc(50% - 50vw);
-  margin-right: auto;
-  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .shadow {
