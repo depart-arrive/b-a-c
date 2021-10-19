@@ -24,8 +24,8 @@
   max-width: 100vw;
   min-width: 100%;
   margin: auto;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0vw;
+  margin-right: 100vw;
 }
 
 .shadow {
