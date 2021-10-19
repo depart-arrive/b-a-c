@@ -3,10 +3,7 @@
     {% for post in projectlist | reverse %}
       <div class="project-card" {% if post.url == url %} data-current="current item"{% endif %}>
            {% if post.data.images.thumb %}
-  <p>
-  <a href="{{ post.url | url }}">
-  <img src={% if post.data.image %}"/{{ post.data.image }}"{% endif %} >
-  </a></p>
+  <p><img src={% if post.data.image %}"./{{ post.data.image }}"{% endif %} ></p>
     {% endif %}
        
        <h4>
