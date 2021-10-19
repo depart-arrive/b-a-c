@@ -6,6 +6,7 @@ summary: test summary
 metaDescription: meta
 tags:
   - projects
+image: /static/img/screenshot-2021-10-18-at-09.36.44.png
 ---
 # heading 1
 
