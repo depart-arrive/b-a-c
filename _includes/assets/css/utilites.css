@@ -26,6 +26,7 @@
   margin: auto;
   margin-left: calc(50% - 50vw);
   margin-right: auto;
+  display: block;
 }
 
 .shadow {
