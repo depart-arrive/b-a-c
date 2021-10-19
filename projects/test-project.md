@@ -16,9 +16,11 @@ image: /static/img/screenshot-2021-10-18-at-09.36.44.png
 
 main body text goes here.
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-4xl">
-  <div>TESTING COLUMN ONE</div>
-  <div>TEST COLUMN TWO GOES HERE HOPEFULLY</div>
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
 </div>
+
 
 ![mtns](/static/img/screenshot-2021-10-18-at-09.36.44.png "Mountains")
