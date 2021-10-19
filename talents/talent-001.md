@@ -6,6 +6,7 @@ summary: talent summary
 metaDescription: meta
 tags:
   - TALENT
+image: /static/img/screenshot-2021-10-18-at-09.36.44.png
 ---
 Talent
 
