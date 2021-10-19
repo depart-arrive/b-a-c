@@ -2,7 +2,10 @@
   <div class="project-grid">
 	{% for post in postslist | reverse %}
       <div class="project-card" {% if post.url == url %} data-current="current item"{% endif %}>
-        <h4>
+           {% if post.data.image %}
+  <img src="{{ post.data.image }}" />
+    {% endif %}
+	<h4>
           <a class="project-card__title" href="{{ post.url | url }}">
             {% if post.data.title %}
               <span class="project-card__emoji">{{ post.data.emoji }}</span>
